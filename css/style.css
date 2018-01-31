@@ -1,0 +1,170 @@
+a:hover,a:active{
+  text-decoration: none;
+}
+.bgc-yellow{
+  background-color: #f63;
+  border-radius: 5px;
+}
+.header{
+  background: url("..\\img\\header-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  margin-top: -65px;
+}
+.headerAtTop{
+  margin-top: -65px;
+  /* shift up the header when we scroll the window to the top */
+  z-index: 0;
+}
+.shiftUp{
+  margin-top: -300px;
+}
+.header h1{
+  font-style: italic;
+  font-size: 40px;
+  line-height: 40px;
+  padding-top: 50px;
+  margin-top: 0;
+  font-family: 'Indie Flower', cursive;
+}
+.header p{
+  padding-top: 50px;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 75px;
+  margin-bottom: 50px;
+}
+.header button{
+  background-color: #f63;
+  border-color: #f63;
+}
+.header button a{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.title{
+  padding-top: 300px;
+  padding-bottom: 200px;
+}
+.navAtTop{
+  background-color: rgba(0,0,0,0.0);
+  z-index: 1;
+}
+nav{
+  font-size: 20px;
+  font-family: Circular,Verdana,sans-serif;
+}
+nav .navbar-brand{
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+  color: #f63!important;
+}
+.navbar-collapse{
+  z-index: 1;
+}
+.navbar-nav a:active{
+  background-color: #f63;
+  border-radius: 10px;
+}
+#service{
+  padding: 0;
+}
+.row-service{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.row-service h3{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.service-header,.portfolio-header,.about-header,.team-header,.contact-header{
+  padding-top: 100px;
+  font-family: Circular,Verdana,sans-serif;
+}
+.service-icon{
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: #f63;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.service-icon .fa{
+  font-size: 50px;
+  color: white;
+  margin-top: 25px;
+}
+.bgc-portfolio,.bgc-team{
+  background-color: #eeeeee;
+}
+#portfolio p{
+  color: grey;
+  font-style: italic;
+}
+#about p{
+  color: white;
+}
+
+.timeline .row{
+  margin-bottom: 180px;
+}
+
+.timeline .row:last-of-type{
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+.timeline-1{
+  margin-top: 100px;
+}
+
+.picture img{
+  border-radius: 50%;
+  border: solid white 0.5em;
+  vertical-align: middle;
+  margin-left: 20%;
+}
+.pic_sm{
+  margin-left: 0;
+}
+.team-main{
+  margin-top: 50px;
+}
+.team-member-img img{
+  border-radius: 50%;
+}
+.fa-weibo,
+.fa-weixin,
+.fa-qq{
+  font-size: 25px;
+  color: black;
+}
+.fa-weixin{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#contact{
+  background-color: black;
+  color: white;
+}
+#contact form .right .form-group{
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0;
+}
+#contact form .right .form-group input{
+  height: 60%;
+}
+#contact .container{
+  padding-bottom: 50px;
+}
+#footer{
+  margin-top: 20px;
+}
+#footer .col-lg-4:last-of-type ul li a{
+  color: #f63;
+}
